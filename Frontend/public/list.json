@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Sherlock Holmes",
+    "title": "The Adventures of Sherlock Holmes",
+    "price": 0,
+    "category": "Mystery",
+    "description": "A collection of twelve short stories featuring the famous detective Sherlock Holmes and his faithful companion Dr. Watson.",
+    "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 2,
+    "name": "Pride and Prejudice",
+    "title": "Pride and Prejudice",
+    "price": 0,
+    "category": "Romance",
+    "description": "A romantic novel that explores the issues of social class, marriage, and morality in early 19th-century England.",
+   "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 3,
+    "name": "1984",
+    "title": "1984",
+    "price": 0,
+    "category": "Dystopian",
+    "description": "A chilling portrayal of a totalitarian regime that uses surveillance and mind control to maintain power.",
+    "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 4,
+    "name": "To Kill a Mockingbird",
+    "title": "To Kill a Mockingbird",
+    "price": 0,
+    "category": "Fiction",
+    "description": "A novel set in the American South during the 1930s, addressing serious issues like racial inequality and moral growth.",
+   "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 5,
+    "name": "The Hobbit",
+    "title": "The Hobbit",
+    "price": 0,
+    "category": "Fantasy",
+    "description": "The journey of Bilbo Baggins, a hobbit who embarks on an unexpected adventure with a group of dwarves.",
+    "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 6,
+    "name": "Harry Potter and the Sorcerer's Stone",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "price": 0,
+    "category": "Fantasy",
+    "description": "The first book in the Harry Potter series, introducing readers to a young wizard's journey at Hogwarts School of Witchcraft and Wizardry.",
+    "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 7,
+    "name": "The Da Vinci Code",
+    "title": "The Da Vinci Code",
+    "price": 0,
+    "category": "Thriller",
+    "description": "A gripping tale that combines art, history, and religion in a quest to solve a centuries-old mystery.",
+    "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 8,
+    "name": "Dune",
+    "title": "Dune",
+    "price": 0,
+    "category": "Science Fiction",
+    "description": "A science fiction epic set on the desert planet Arrakis, focusing on politics, religion, and ecology.",
+    "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 9,
+    "name": "Moby-Dick",
+    "title": "Moby-Dick",
+    "price": 0,
+    "category": "Adventure",
+    "description": "The narrative of Captain Ahab's obsessive quest to kill the white whale, Moby Dick.",
+    "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 10,
+    "name": "Meditations",
+    "title": "Meditations",
+    "price": 9.99,
+    "category": "Philosophy",
+    "description": "A series of personal writings by the Roman Emperor Marcus Aurelius, offering insights into Stoic philosophy.",
+   "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 11,
+    "name": "The Great Gatsby",
+    "title": "The Great Gatsby",
+    "price": 12.99,
+    "category": "Fiction",
+    "description": "A portrayal of the American Jazz Age and the disillusionment of the American Dream.",
+    "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 12,
+    "name": "Hamlet",
+    "title": "Hamlet",
+    "price": 8.99,
+    "category": "Drama",
+    "description": "Shakespeare's tragedy about the Prince of Denmark's quest for revenge against his uncle.",
+   "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 13,
+    "name": "Jane Eyre",
+    "title": "Jane Eyre",
+    "price": 10.99,
+    "category": "Romance",
+    "description": "The story of an orphaned girl who becomes a governess and falls in love with her employer.",
+    "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 14,
+    "name": "Treasure Island",
+    "title": "Treasure Island",
+    "price": 11.99,
+    "category": "Adventure",
+    "description": "The tale of young Jim Hawkins and his adventure to find buried treasure.",
+    "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "id": 15,
+    "name": "The Chronicles of Narnia",
+    "title": "The Chronicles of Narnia",
+    "price": 13.99,
+    "category": "Fantasy",
+    "description": "A series of seven fantasy novels that take place in the magical land of Narnia.",
+   "image": "https://images.unsplash.com/photo-1505063366573-38928ae5567e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
