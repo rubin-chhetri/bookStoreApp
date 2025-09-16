@@ -1,11 +1,23 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import List from "../../public/list.json";
+import axios from 'axios';
 import Cards from "./Cards";
-
+import { useEffect, useState } from "react";
 const FreeBook = () => {
-  const filteredData = List.filter(item => item.price === 0);
+  const [book,setBook]=useState([]);
+  useEffect(()=>{
+    const getBook=async()=>{
+      try {
+       const res= await axios.get('http://localhost:3000/api/v1/book');
+       const filteredData = res.data.filter(item => item.price === 0);
+        console.log(filteredData);
+       setBook(filteredData);  
+      } catch (error) {
+        console.log(error);
+      }
+  }
+  getBook()  },[])
 
   const settings = {
     dots: true,
@@ -35,7 +47,7 @@ const FreeBook = () => {
 
       <div className="slider-container">
         <Slider {...settings}>
-          {filteredData.map((item, index) => (
+          {book.map((item, index) => (
             <div key={index} className="flex h-full"> 
               {/* Flex wrapper ensures all cards stretch equally */}
               <Cards item={item} isSlider={true} />

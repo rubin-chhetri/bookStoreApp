@@ -27,7 +27,7 @@ const Banner = () => {
   <input type="email" placeholder="mail@site.com" className="text-gray-500" required />
 </label>
     </div>
-    <button className="btn btn-secondary mt-4">Secondary</button>
+    <button className="btn btn-secondary mt-4">Get Started</button>
 <div className="validator-hint hidden">Enter valid email address</div>
     </div>
     <div className="order-1 w-full md:w-1/2">

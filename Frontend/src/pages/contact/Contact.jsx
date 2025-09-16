@@ -1,86 +1,61 @@
-import { useForm } from "react-hook-form";
+import React from "react";
 
-
-function Contact() {
-  const { register, handleSubmit, formState: { errors } } = useForm();
-  const onSubmit = (data) => {
-    console.log("Contact form submitted:", data);
-    alert("Your message has been sent!");
-  };
-
+const Contact = () => {
   return (
-    <>
- 
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-slate-900 px-6 py-10">
-      <div className="w-full max-w-2xl bg-white dark:bg-slate-700 shadow-md rounded-lg p-8">
-        <h2 className="text-3xl font-bold text-center mb-6 text-gray-800 dark:text-white">
-          Contact Us
-        </h2>
-        <p className="text-center text-gray-600 dark:text-gray-300 mb-6">
-          Have questions, feedback, or need support? Fill out the form below and we’ll get back to you soon.
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 dark:bg-slate-900 px-4 py-12">
+      <div className="w-full max-w-3xl bg-white dark:bg-slate-800 rounded-lg shadow-md p-8">
+        <h1 className="text-4xl font-bold text-center mb-6 text-gray-800 dark:text-white">
+          Contact Me
+        </h1>
+
+        <p className="text-center text-gray-700 dark:text-gray-200 mb-6">
+          I’d love to hear from you! Whether you have questions, business inquiries, or just want to say hi, feel free to reach out through any of the following channels:
         </p>
 
-        <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">
-          {/* Name */}
-          <div>
-            <label htmlFor="name" className="block mb-1 text-gray-700 dark:text-gray-200">
-              Name
-            </label>
-            <input
-              type="text"
-              id="name"
-              placeholder="Enter your name"
-              className="input input-bordered w-full dark:bg-slate-600 dark:border-slate-500 dark:text-white"
-              {...register("name", { required: "Name is required" })}
-            />
-            {errors.name && <span className="text-red-500 text-sm">{errors.name.message}</span>}
+        <div className="space-y-4 text-gray-800 dark:text-gray-200">
+          <div className="flex items-center gap-3">
+            <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M16 12h2a2 2 0 0 1 2 2v4H4v-4a2 2 0 0 1 2-2h2"></path>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 16v-4m0 0V8m0 4h4m-4 0H8"></path>
+            </svg>
+            <span>Email: <a href="mailto:yourname@example.com" className="text-pink-500 hover:underline">rubeen.adhikari2017@gmail.com</a></span>
           </div>
 
-          {/* Email */}
-          <div>
-            <label htmlFor="email" className="block mb-1 text-gray-700 dark:text-gray-200">
-              Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              placeholder="Enter your email"
-              className="input input-bordered w-full dark:bg-slate-600 dark:border-slate-500 dark:text-white"
-              {...register("email", {
-                required: "Email is required",
-                pattern: {
-                  value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
-                  message: "Enter a valid email address",
-                },
-              })}
-            />
-            {errors.email && <span className="text-red-500 text-sm">{errors.email.message}</span>}
+          <div className="flex items-center gap-3">
+            <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 5h2l1.68 5.37a2 2 0 0 0 1.94 1.63h7.76a2 2 0 0 0 1.94-1.63L19 5h2"></path>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M16 17a4 4 0 0 1-8 0"></path>
+            </svg>
+            <span>Phone: <a href="tel:+1234567890" className="text-pink-500 hover:underline">+977-9806691289</a></span>
           </div>
 
-          {/* Message */}
-          <div>
-            <label htmlFor="message" className="block mb-1 text-gray-700 dark:text-gray-200">
-              Message
-            </label>
-            <textarea
-              id="message"
-              placeholder="Write your message here..."
-              rows="5"
-              className="textarea textarea-bordered w-full dark:bg-slate-600 dark:border-slate-500 dark:text-white"
-              {...register("message", { required: "Message cannot be empty" })}
-            ></textarea>
-            {errors.message && <span className="text-red-500 text-sm">{errors.message.message}</span>}
+          <div className="flex items-center gap-3">
+            <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7-5 7 5v8l-7 5-7-5V8z"></path>
+            </svg>
+            <span>Address: Gharipatan-17 Pokhara, Nepal</span>
           </div>
+        </div>
 
-          {/* Submit */}
-          <button type="submit" className="btn btn-primary w-full mt-2">
-            Send Message
-          </button>
-        </form>
+        <div className="mt-8 text-center text-gray-700 dark:text-gray-200">
+          <p>
+            You can also reach me via social media or follow my work online:
+          </p>
+          <div className="flex justify-center gap-4 mt-4">
+            <a href="https://www.instagram.com/rubin_adhikari/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+              Instagram
+            </a>
+            <a href="https://www.linkedin.com/in/rubin-chhetri-4b62422a5/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+              LinkedIn
+            </a>
+            <a href="https://github.com/rubin-chhetri" target="_blank" rel="noopener noreferrer" className="text-gray-800 dark:text-blue-500 hover:underline">
+              GitHub
+            </a>
+          </div>
+        </div>
       </div>
     </div>
-    </>
   );
-}
+};
 
 export default Contact;

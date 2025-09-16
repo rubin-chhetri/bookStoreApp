@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-
+import toast, { Toaster } from "react-hot-toast";
 const Layout = () => {
   return (
     <div className="flex flex-col min-h-screen">
@@ -16,6 +16,7 @@ const Layout = () => {
 
       {/* Footer always at bottom */}
       <Footer />
+      <Toaster />
     </div>
   );
 };
